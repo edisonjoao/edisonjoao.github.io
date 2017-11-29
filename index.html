@@ -49,6 +49,20 @@
         <div class="row">
           <div class="col-xl-9 mx-auto">
             <h1 class="mb-5">Gen-Us</h1>
+		  
+		  <script>
+			  var lineDrawing = Gen-Us({
+  targets: '#lineDrawing .lines path',
+  strokeDashoffset: [Gen-Us.setDashoffset, 0],
+  easing: 'easeInOutSine',
+  duration: 1500,
+  delay: function(el, i) { return i * 250 },
+  direction: 'alternate',
+  loop: true
+});
+		  </script>
+		  
+		  
             <h2 class="mb-10"> Gen-Us is the platform for all generations. We’re focused on the concious engaged individual. We want to be the platform in which we tackle, discuss, and come out with new perspectives on the most pressing issues of today’s time. We want to be the place that strives to make this world a better place and not cause hysteria</h2>
           </div>
           <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
